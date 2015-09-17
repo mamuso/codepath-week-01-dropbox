@@ -1,4 +1,8 @@
-# Project Requirements
+# Week 1 Project: Dropbox
+
+Due: Monday, September 21st at 11:59pm
+
+## Project Requirements
 
 - [ ] User can tap through the 3 welcome screens.
 - [ ] User can follow the create user flow.
