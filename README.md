@@ -2,6 +2,8 @@
 
 Due: Monday, September 21st at 11:59pm
 
+![Video Walkthrough](DrobpoxSimulation.gif)
+
 ## Project Requirements
 
 - [x] User can tap through the 3 welcome screens.
