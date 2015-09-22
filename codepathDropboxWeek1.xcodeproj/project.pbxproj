@@ -10,10 +10,16 @@
 		0B71062C1BAA95E200687130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B71062B1BAA95E200687130 /* AppDelegate.swift */; };
 		0B71062E1BAA95E200687130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B71062D1BAA95E200687130 /* ViewController.swift */; };
 		0B7106311BAA95E200687130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B71062F1BAA95E200687130 /* Main.storyboard */; };
-		0B7106331BAA95E200687130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7106321BAA95E200687130 /* Assets.xcassets */; };
 		0B7106361BAA95E200687130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7106341BAA95E200687130 /* LaunchScreen.storyboard */; };
 		0B7106411BAA95E200687130 /* codepathDropboxWeek1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7106401BAA95E200687130 /* codepathDropboxWeek1Tests.swift */; };
 		0B71064C1BAA95E200687130 /* codepathDropboxWeek1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B71064B1BAA95E200687130 /* codepathDropboxWeek1UITests.swift */; };
+		BB0C57171BB114E000A13C9C /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C57161BB114E000A13C9C /* PopoverViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BB0C571F1BB122D500A13C9C /* EmptyCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C571E1BB122D500A13C9C /* EmptyCaseViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BB0C57211BB1246E00A13C9C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C57201BB1246E00A13C9C /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BB7548C21BAFE8FD0027ED43 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7548C11BAFE8FD0027ED43 /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BB7548C41BAFE90E0027ED43 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7548C31BAFE90E0027ED43 /* CreateAccountRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBB4DDFC1BAFED5C00A0FA2A /* CreateAccountFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB4DDFB1BAFED5C00A0FA2A /* CreateAccountFormViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBB4DDFE1BAFEF0800A0FA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB4DDFD1BAFEF0800A0FA2A /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 		0B71062B1BAA95E200687130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B71062D1BAA95E200687130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B7106301BAA95E200687130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0B7106321BAA95E200687130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B7106351BAA95E200687130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B7106371BAA95E200687130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B71063C1BAA95E200687130 /* codepathDropboxWeek1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codepathDropboxWeek1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +52,13 @@
 		0B7106471BAA95E200687130 /* codepathDropboxWeek1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codepathDropboxWeek1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B71064B1BAA95E200687130 /* codepathDropboxWeek1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepathDropboxWeek1UITests.swift; sourceTree = "<group>"; };
 		0B71064D1BAA95E200687130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0C57161BB114E000A13C9C /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		BB0C571E1BB122D500A13C9C /* EmptyCaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmptyCaseViewController.swift; path = ../EmptyCaseViewController.swift; sourceTree = "<group>"; };
+		BB0C57201BB1246E00A13C9C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BB7548C11BAFE8FD0027ED43 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		BB7548C31BAFE90E0027ED43 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountRootViewController.swift; path = ../CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		BBB4DDFB1BAFED5C00A0FA2A /* CreateAccountFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountFormViewController.swift; sourceTree = "<group>"; };
+		BBB4DDFD1BAFEF0800A0FA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +109,16 @@
 		0B71062A1BAA95E200687130 /* codepathDropboxWeek1 */ = {
 			isa = PBXGroup;
 			children = (
+				BB7548C31BAFE90E0027ED43 /* CreateAccountRootViewController.swift */,
 				0B71062B1BAA95E200687130 /* AppDelegate.swift */,
 				0B71062D1BAA95E200687130 /* ViewController.swift */,
+				BB0C571E1BB122D500A13C9C /* EmptyCaseViewController.swift */,
 				0B71062F1BAA95E200687130 /* Main.storyboard */,
-				0B7106321BAA95E200687130 /* Assets.xcassets */,
+				BB0C57201BB1246E00A13C9C /* SettingsViewController.swift */,
+				BB0C57161BB114E000A13C9C /* PopoverViewController.swift */,
+				BBB4DDFD1BAFEF0800A0FA2A /* Assets.xcassets */,
+				BBB4DDFB1BAFED5C00A0FA2A /* CreateAccountFormViewController.swift */,
+				BB7548C11BAFE8FD0027ED43 /* SignInRootViewController.swift */,
 				0B7106341BAA95E200687130 /* LaunchScreen.storyboard */,
 				0B7106371BAA95E200687130 /* Info.plist */,
 			);
@@ -230,7 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B7106361BAA95E200687130 /* LaunchScreen.storyboard in Resources */,
-				0B7106331BAA95E200687130 /* Assets.xcassets in Resources */,
+				BBB4DDFE1BAFEF0800A0FA2A /* Assets.xcassets in Resources */,
 				0B7106311BAA95E200687130 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB4DDFC1BAFED5C00A0FA2A /* CreateAccountFormViewController.swift in Sources */,
+				BB7548C41BAFE90E0027ED43 /* CreateAccountRootViewController.swift in Sources */,
+				BB0C571F1BB122D500A13C9C /* EmptyCaseViewController.swift in Sources */,
 				0B71062E1BAA95E200687130 /* ViewController.swift in Sources */,
 				0B71062C1BAA95E200687130 /* AppDelegate.swift in Sources */,
+				BB0C57171BB114E000A13C9C /* PopoverViewController.swift in Sources */,
+				BB7548C21BAFE8FD0027ED43 /* SignInRootViewController.swift in Sources */,
+				BB0C57211BB1246E00A13C9C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +430,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mamuso.codepathDropboxWeek1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -420,6 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mamuso.codepathDropboxWeek1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -490,6 +516,7 @@
 				0B7106521BAA95E200687130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B7106531BAA95E200687130 /* Build configuration list for PBXNativeTarget "codepathDropboxWeek1Tests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +525,7 @@
 				0B7106551BAA95E200687130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B7106561BAA95E200687130 /* Build configuration list for PBXNativeTarget "codepathDropboxWeek1UITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +534,7 @@
 				0B7106581BAA95E200687130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
